@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3">
+        <owl:versionIRI rdf:resource="http://example.org/family"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#hasChild -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#hasChild">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isChildOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isChildOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isDaughterOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isDaughterOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Woman"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isGranddaughterOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isGranddaughterOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Woman"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isGrandsonOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isGrandsonOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Man"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isSonOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isSonOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Man"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#HasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#HasName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Man -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Man">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Woman"/>
+        <rdfs:label>Мужчина</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person">
+        <rdfs:label>Человек</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Woman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Woman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+        <rdfs:label>Женщина</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Anna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Anna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Woman"/>
+        <isChildOf rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Maria"/>
+        <isChildOf rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Petr"/>
+        <isDaughterOf rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Maria"/>
+        <isDaughterOf rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Petr"/>
+        <HasName>Анна</HasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Elena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Elena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Woman"/>
+        <HasName>Елена</HasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Fedor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Fedor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Man"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+        <HasName>Фёдор</HasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Ivan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Ivan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Man"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+        <isChildOf rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Maria"/>
+        <isChildOf rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Petr"/>
+        <isGrandsonOf rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Elena"/>
+        <isGrandsonOf rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Fedor"/>
+        <isSonOf rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Maria"/>
+        <isSonOf rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Petr"/>
+        <HasName>Иван</HasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Maria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Maria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Woman"/>
+        <HasName>Мария</HasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Petr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Petr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Man"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Person"/>
+        <isChildOf rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Elena"/>
+        <isChildOf rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Fedor"/>
+        <isSonOf rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Elena"/>
+        <isSonOf rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Fedor"/>
+        <HasName>Пётр</HasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#x">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#y">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#z">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>InferGrandson</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#Man"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isChildOf"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#x"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isChildOf"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#y"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#z"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isGrandsonOf"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#z"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>DaughterIsChild</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isDaughterOf"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isChildOf"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>SonIsChild</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isSonOf"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#isChildOf"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kiril/ontologies/2026/9/untitled-ontology-3#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
